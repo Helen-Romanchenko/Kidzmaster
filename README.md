@@ -12,3 +12,5 @@ Features:
 3. Implemented sliders on CSS.
 4. Created two popups – registration and login forms.
 5. Supported browsers: current versions Chrome, Opera, Firefox, Safari, Edge, IE10+.
+
+Live Demo https://helen-romanchenko.github.io/Kidzmaster/
