@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kidzmaster-register</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="icon" type="image/icon" href="favicon.ico">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body class="registration-page">
+	<header class="page-header">
+		<div class="inner flex-container">
+			<a class="page-header-logo" id="kidzmaster" href="index.html">
+				<img src="img/logo-header.png" alt="Kidzmaster" width="271" height="140">
+			</a>
+			<div class="page-header-content">
+				<div class="header-content-top">
+					<div class="header-content-telephone">
+						1-800-633-3469
+					</div>
+					<div class="header-content-email">
+						maileducado.com
+					</div>
+					<form action="#" method="post" class="header-content-search">
+						<input type="search" name="search" class="search-input" />
+						<div class="header-content-search-icon">
+							
+					  		<button type="submit" name="send-search-request" value="Send" class="search-submit" >
+						  	Send</button>
+						</div>
+					  	
+					</form>
+					<div class="header-content-user-block">
+						<a class="register active">Register</a>
+						<a class="login" href="login.html">Login</a>
+					</div>
+				</div>
+				<nav>
+					<ul class="main-navigation">
+						<li><a href="index.html">home</a></li>
+						<li><a href="#">academic</a></li>
+						<li><a href="#">admission</a></li>
+						<li><a href="#">teachers</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">blog</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+	</header>
+
+
+
+	<main class="autorize autorize-bg">
+		<div class="inner">
+			
+			<ul class="breadcrumbs">
+				<li><a href="index.html">Home</a></li>
+				<li class="current"><a>Registration</a></li>
+			</ul>
+	
+			<div class="modal-registration">
+			
+				<h1>Registration</h1>
+				<p>Please fill in this form to create an account.</p>
+				<form class="modal-registration-form" action="#" method="post">
+					<label for="username">
+						<span class="visually-hidden">Username</span>
+						<input type="text" name="login" id="username" placeholder="Username" required>
+						<span class="modal-form-icon icon-user"></span>
+					</label>				
+					<label for="email-registration">
+						<span class="visually-hidden">E-mail</span>
+						<input type="email" name="email" id="email-registration" placeholder="E-mail" required>
+						<span class="modal-form-icon icon-email"></span>
+					</label>
+					<label for="password-registration">
+						<span class="visually-hidden">Password</span>
+						<input  type="password" name="password" id="password-registration" placeholder="Password" required>
+						<span class="modal-form-icon icon-password"></span>
+					</label>			
+					
+					<label for="password-retype-registration">
+						<span class="visually-hidden">Retype password</span>
+						<input type="password" name="password-retype" id="password-retype-registration" placeholder="Retype Password" required>
+						<span class="modal-form-icon icon-password"></span>
+					</label>	
+				
+					<label class="checkbox-remember">
+						<input type="checkbox" name="remember">
+						<span class="checkbox-indicator"></span>
+						Remember me
+					</label>
+					<p>Register with</p>
+					<div class="modal-social">
+						<a class="fb-user" href="#">Facebook</a>
+						<a class="tw-user" href="#">Twitter</a>
+						<a class="google-user" href="#">Google+</a>
+					</div>
+					<button class="btn" type="submit">
+						Register
+					</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer class="page-footer page-footer-bg">
+		<div class="page-footer-top-image"></div>
+		<div class="inner">
+			<div class="page-footer-subscribe">
+				<form class="subscribe flex-container" action="/kidzmaster-mail" method="post">
+					<label for="email">Sign up <br>for our newsletters </label>
+					<input type="email" name="email" id="email" placeholder="Enter your email">
+					<input type="submit" class="btn submit-btn" value="Submit now">
+				</form>
+			</div>
+			<div class="page-footer-contacts-and-links flex-container">
+				<div class="page-footer-contacts">
+					<p><span class="page-footer-contacts-caption">ADDRESS:</span> <br>
+							73724 Route , 4A <br>
+							South Richmond Hill, NY 11419 
+					</p>
+
+					<p><span class="page-footer-contacts-caption">Tel:</span> (603)-677-3400</p>
+					<p><span class="page-footer-contacts-caption">Email:</span> <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
+					<p><span class="page-footer-contacts-caption">Web:</span> <a href="#">yourdomain.com</a></p>
+				</div>
+				<div class="page-footer-quicklinks">
+					<span class="page-footer-links-caption">QUICKLINKS:</span>
+					<ul class="page-footer-quicklinks-list">
+						<li><a href="#">Calender</a></li>
+						<li><a href="#">Maps &amp; Directions</a></li>
+						<li><a href="#">Our News</a></li>
+						<li><a href="#">University Courses</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+
+				</div>
+				<ul class="page-footer-icon-links">
+					<li>
+						<a href="#achievements" class="page-footer-icon-links-item achievements-icon"> <span class="visually-hidden">Achievements</span></a>
+					</li>
+					<li>
+						<a href="#courses" class="page-footer-icon-links-item art-icon"><span class="visually-hidden">Courses</span> </a>
+					</li>
+					<li>
+						<a href="#teachers" class="page-footer-icon-links-item teachers-icon"><span class="visually-hidden">Teachers</span></a>
+					</li>
+					<li>
+						<a href="#events" class="page-footer-icon-links-item events-icon"><span class="visually-hidden">Events</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="page-footer-bottom">
+			<div class="inner flex-container">
+				<div class="footer-copyright">
+					<p >
+						Copyright © 2017 Kidz master. All Rights Reserved
+					</p>
+					<p >Built by <a href="https://github.com/Helen-Romanchenko" target="_blank">Helen Romanchenko</a></p>
+				</div>
+				<div class="footer-logo"><a href="#kidzmaster"><img src="img/logo-footer.png" alt="Kidzmaster Logo" width="271" height="140"></a></div>
+				<ul class="page-footer-social">
+					<li>
+						<a href="#" class="footer-social-btn fb-btn" target="_blank"><span class="visually-hidden">Facebook</span></a>
+					</li>
+					<li>
+						<a href="#" class="footer-social-btn tw-btn" target="_blank"><span class="visually-hidden">Twitter</span></a>
+					</li>
+					<li>
+						<a href="#" class="footer-social-btn google-btn" target="_blank"><span class="visually-hidden">Google+</span></a>
+					</li>
+					<li>
+						<a href="#" class="footer-social-btn in-btn" target="_blank"><span class="visually-hidden">Instagram</span></a>
+					</li>
+					<li>
+						<a href="#" class="footer-social-btn yt-btn" target="_blank"><span class="visually-hidden">Youtube</span></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+
+</body>
+</html>
